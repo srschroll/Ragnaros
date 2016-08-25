@@ -9,41 +9,42 @@
  * Designed by Shane R Schroll
 */
 
-import javax.swing.JFrame;
+import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class RagEngine extends JFrame
 {
+	private boolean isRunning; // for update()
+	
 	/* Entry point */
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		
 	}
 	
 	
 	/* This method starts the game and loops it */
-	public void run()
-	{
+	public void run() {
 		init();
-		
 	}
 	
 	
 	/* This method sets up things needed for the game to run */
-	void init()
-	{
+	public void init() {
 		
 	}
 	
 	/* This method checks for input, win/loss conditions, moves objects around, etc */
-	void update()
-	{
-		
+	public void update() {	
+		 while(isRunning) {	
+			// TODO: check conditions and input
+		}
 	}
 	
 	
 	/* This method draws everything */
-	void draw()
+	public void draw()
 	{
 		
 	}
